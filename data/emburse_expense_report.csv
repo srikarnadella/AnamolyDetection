@@ -1,0 +1,551 @@
+expense_id,employee_id,department,expense_date,merchant,expense_amount,currency,category,payment_type,project_code,notes
+100000,1051,Finance,2024-09-05,Amazon,267.98,USD,Travel,Reimbursed,CLIENT001,Conference trip
+100001,1092,HR,2024-02-13,Amazon,216.51,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100002,1014,Finance,2024-01-10,WeWork,447.5,USD,Travel,Corporate Card,CLIENT002,Quarterly planning
+100003,1071,Engineering,2024-10-14,Hilton,245.27,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100004,1060,Sales,2024-04-16,WeWork,94.2,USD,Supplies,Corporate Card,INTERNAL,Office supplies
+100005,1020,HR,2024-04-05,Hilton,209.96,USD,Meals,Corporate Card,INTERNAL,Conference trip
+100006,1082,Sales,2024-03-27,WeWork,299.97,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100007,1086,Sales,2024-02-24,Uber,303.26,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100008,1074,HR,2024-10-13,Uber,141.22,USD,Meals,Corporate Card,CLIENT001,Client meeting
+100009,1074,Finance,2024-02-09,Uber,342.95,USD,Software,Corporate Card,CLIENT001,Quarterly planning
+100010,1087,Sales,2024-09-19,Uber,73.71,USD,Supplies,Corporate Card,CLIENT001,Client meeting
+100011,1099,Engineering,2024-10-14,Delta Airlines,364.41,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100012,1023,Sales,2024-12-12,Uber,118.07,USD,Travel,Reimbursed,INTERNAL,Client meeting
+100013,1002,HR,2024-07-30,Amazon,227.38,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100014,1021,HR,2024-02-03,Amazon,356.46,USD,Software,Reimbursed,INTERNAL,Client meeting
+100015,1052,HR,2024-08-17,Delta Airlines,261.96,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100016,1001,Finance,2024-06-12,Uber,331.67,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100017,1087,Sales,2024-01-13,Uber,311.87,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100018,1029,Finance,2024-01-12,Uber,378.63,USD,Software,Corporate Card,CLIENT001,Client meeting
+100019,1037,Finance,2024-02-06,WeWork,356.22,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100020,1001,HR,2024-03-25,Hilton,204.63,USD,Supplies,Corporate Card,CLIENT001,Office supplies
+100021,1063,HR,2024-03-31,WeWork,313.29,USD,Lodging,Corporate Card,CLIENT002,Client meeting
+100022,1059,Finance,2024-07-15,Hilton,97.34,USD,Software,Corporate Card,CLIENT001,Office supplies
+100023,1020,Sales,2024-08-21,Uber,244.21,USD,Supplies,Reimbursed,CLIENT002,Quarterly planning
+100024,1032,Engineering,2024-01-11,Uber,331.85,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100025,1075,Finance,2024-08-05,WeWork,263.38,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100026,1057,Sales,2024-03-18,WeWork,294.66,USD,Software,Reimbursed,CLIENT002,Conference trip
+100027,1021,HR,2024-10-05,Hilton,228.67,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100028,1088,HR,2024-09-09,Amazon,362.91,USD,Travel,Reimbursed,CLIENT001,Office supplies
+100029,1048,Sales,2024-09-29,Hilton,241.96,USD,Software,Corporate Card,CLIENT001,Office supplies
+100030,1090,Engineering,2024-07-30,WeWork,203.45,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100031,1058,HR,2024-06-11,WeWork,338.65,USD,Meals,Corporate Card,CLIENT002,Office supplies
+100032,1041,HR,2024-03-26,Delta Airlines,109.48,USD,Travel,Reimbursed,CLIENT002,Client meeting
+100033,1091,HR,2024-06-23,WeWork,300.1,USD,Travel,Corporate Card,INTERNAL,Quarterly planning
+100034,1059,Sales,2024-08-16,Delta Airlines,145.75,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100035,1079,Finance,2024-04-18,Amazon,377.79,USD,Meals,Reimbursed,CLIENT002,Conference trip
+100036,1014,HR,2024-11-10,Hilton,223.9,USD,Meals,Reimbursed,CLIENT001,Conference trip
+100037,1061,Finance,2024-12-03,Hilton,263.5,USD,Supplies,Reimbursed,CLIENT001,Office supplies
+100038,1061,Engineering,2024-01-03,Delta Airlines,291.26,USD,Lodging,Reimbursed,CLIENT001,Client meeting
+100039,1046,HR,2024-10-21,Hilton,57.03,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100040,1061,HR,2024-11-08,WeWork,184.94,USD,Lodging,Corporate Card,CLIENT001,Quarterly planning
+100041,1050,Engineering,2024-03-03,Uber,354.35,USD,Meals,Reimbursed,CLIENT001,Office supplies
+100042,1054,HR,2024-09-28,Delta Airlines,336.78,USD,Meals,Corporate Card,CLIENT001,Quarterly planning
+100043,1063,Finance,2024-06-13,Hilton,278.3,USD,Supplies,Corporate Card,INTERNAL,Client meeting
+100044,1002,Sales,2024-05-12,Delta Airlines,115.05,USD,Software,Reimbursed,INTERNAL,Client meeting
+100045,1050,Finance,2024-04-17,Delta Airlines,308.55,USD,Supplies,Reimbursed,INTERNAL,Conference trip
+100046,1006,Sales,2024-03-01,Uber,321.34,USD,Lodging,Reimbursed,INTERNAL,Office supplies
+100047,1020,Sales,2024-03-24,WeWork,254.7,USD,Supplies,Corporate Card,CLIENT001,Client meeting
+100048,1072,Finance,2024-10-23,Delta Airlines,372.32,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100049,1038,Finance,2024-05-10,Hilton,181.66,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100050,1017,Finance,2024-02-09,Amazon,199.01,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100051,1003,Finance,2024-02-06,Delta Airlines,1.54,USD,Software,Reimbursed,CLIENT002,Office supplies
+100052,1088,Engineering,2024-05-27,Delta Airlines,341.98,USD,Meals,Reimbursed,INTERNAL,Office supplies
+100053,1059,HR,2024-02-07,Uber,281.39,USD,Lodging,Corporate Card,INTERNAL,Client meeting
+100054,1013,Sales,2024-05-19,WeWork,81.82,USD,Meals,Corporate Card,CLIENT001,Client meeting
+100055,1008,Finance,2024-11-25,Amazon,74.14,USD,Supplies,Corporate Card,INTERNAL,Office supplies
+100056,1089,Finance,2024-05-13,Hilton,162.74,USD,Travel,Reimbursed,CLIENT002,Client meeting
+100057,1052,Finance,2024-08-22,Amazon,329.37,USD,Software,Reimbursed,CLIENT001,Client meeting
+100058,1001,Engineering,2024-04-12,Hilton,219.96,USD,Meals,Reimbursed,CLIENT001,Client meeting
+100059,1083,Finance,2024-11-09,WeWork,169.52,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100060,1091,Finance,2024-01-17,Hilton,149.39,USD,Meals,Reimbursed,CLIENT001,Conference trip
+100061,1059,Finance,2024-10-10,Uber,144.91,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100062,1070,HR,2024-06-27,Uber,56.63,USD,Meals,Reimbursed,CLIENT001,Client meeting
+100063,1043,Engineering,2024-07-27,Uber,129.26,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100064,1007,Finance,2024-02-18,Uber,142.94,USD,Supplies,Reimbursed,CLIENT001,Office supplies
+100065,1046,Sales,2024-12-24,Amazon,318.26,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100066,1034,Sales,2024-05-27,WeWork,233.43,USD,Lodging,Reimbursed,CLIENT002,Quarterly planning
+100067,1077,Sales,2024-01-31,Hilton,167.44,USD,Travel,Corporate Card,INTERNAL,Client meeting
+100068,1080,Engineering,2024-08-02,Hilton,480.97,USD,Lodging,Corporate Card,CLIENT002,Client meeting
+100069,1035,Engineering,2024-04-23,Uber,183.61,USD,Travel,Corporate Card,CLIENT001,Conference trip
+100070,1049,Sales,2024-11-18,Uber,366.71,USD,Software,Reimbursed,CLIENT001,Office supplies
+100071,1003,Finance,2024-09-01,Delta Airlines,412.11,USD,Travel,Reimbursed,INTERNAL,Office supplies
+100072,1001,Engineering,2024-08-28,WeWork,93.0,USD,Supplies,Corporate Card,CLIENT002,Conference trip
+100073,1005,Sales,2024-12-09,Amazon,257.4,USD,Travel,Corporate Card,INTERNAL,Client meeting
+100074,1053,Sales,2024-11-30,Hilton,198.25,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100075,1003,Finance,2024-05-20,Delta Airlines,190.11,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100076,1053,HR,2024-08-12,Delta Airlines,305.54,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100077,1092,Engineering,2024-03-15,Hilton,187.71,USD,Meals,Reimbursed,INTERNAL,Quarterly planning
+100078,1062,Finance,2024-09-30,Amazon,200.4,USD,Travel,Reimbursed,CLIENT001,Conference trip
+100079,1017,Sales,2024-01-28,Delta Airlines,233.19,USD,Travel,Reimbursed,INTERNAL,Office supplies
+100080,1089,Sales,2024-01-18,Delta Airlines,212.66,USD,Software,Reimbursed,CLIENT002,Conference trip
+100081,1043,Finance,2024-09-13,WeWork,132.64,USD,Software,Corporate Card,CLIENT002,Conference trip
+100082,1033,Engineering,2024-03-29,Amazon,329.59,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100083,1073,HR,2024-10-27,Delta Airlines,354.85,USD,Software,Reimbursed,CLIENT002,Office supplies
+100084,1061,HR,2024-04-22,Amazon,284.36,USD,Lodging,Corporate Card,CLIENT001,Office supplies
+100085,1099,Sales,2024-01-31,Hilton,212.34,USD,Supplies,Corporate Card,INTERNAL,Conference trip
+100086,1013,Engineering,2024-11-28,Uber,179.48,USD,Travel,Reimbursed,CLIENT002,Quarterly planning
+100087,1094,HR,2024-03-31,Delta Airlines,179.64,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100088,1047,Engineering,2024-12-02,WeWork,485.74,USD,Software,Reimbursed,INTERNAL,Quarterly planning
+100089,1014,Engineering,2024-02-09,Hilton,343.78,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100090,1071,Sales,2024-05-27,Amazon,165.99,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100091,1077,HR,2024-04-17,Hilton,266.47,USD,Supplies,Corporate Card,CLIENT001,Client meeting
+100092,1086,Finance,2024-06-25,Delta Airlines,213.75,USD,Software,Corporate Card,CLIENT002,Conference trip
+100093,1061,Sales,2024-09-03,Amazon,308.38,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100094,1039,HR,2024-11-19,Uber,304.35,USD,Lodging,Reimbursed,INTERNAL,Client meeting
+100095,1084,HR,2024-05-21,Hilton,358.36,USD,Software,Reimbursed,CLIENT001,Client meeting
+100096,1079,HR,2024-03-04,Delta Airlines,164.94,USD,Supplies,Reimbursed,INTERNAL,Quarterly planning
+100097,1081,HR,2024-05-23,WeWork,260.47,USD,Software,Corporate Card,CLIENT002,Client meeting
+100098,1052,HR,2024-05-17,Amazon,75.15,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100099,1023,Engineering,2024-03-22,Hilton,124.27,USD,Lodging,Reimbursed,CLIENT001,Conference trip
+100100,1025,Sales,2024-09-17,Hilton,338.41,USD,Supplies,Corporate Card,CLIENT001,Office supplies
+100101,1088,Engineering,2024-04-13,Uber,154.93,USD,Meals,Reimbursed,CLIENT002,Quarterly planning
+100102,1059,Finance,2024-09-29,Uber,165.91,USD,Meals,Reimbursed,CLIENT002,Conference trip
+100103,1040,HR,2024-12-29,WeWork,249.17,USD,Software,Corporate Card,INTERNAL,Client meeting
+100104,1028,Sales,2024-09-22,WeWork,319.48,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100105,1014,HR,2024-09-08,Delta Airlines,143.92,USD,Lodging,Reimbursed,CLIENT001,Quarterly planning
+100106,1044,Sales,2024-01-28,Delta Airlines,98.08,USD,Lodging,Corporate Card,CLIENT002,Office supplies
+100107,1064,Engineering,2024-08-24,WeWork,162.98,USD,Travel,Reimbursed,CLIENT002,Quarterly planning
+100108,1088,Sales,2024-09-03,WeWork,370.56,USD,Lodging,Reimbursed,CLIENT002,Conference trip
+100109,1070,Finance,2024-03-07,Amazon,284.31,USD,Meals,Corporate Card,INTERNAL,Quarterly planning
+100110,1008,Finance,2024-07-26,Uber,382.39,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100111,1087,Sales,2024-10-10,Delta Airlines,136.82,USD,Software,Corporate Card,CLIENT001,Conference trip
+100112,1000,Sales,2024-04-05,Uber,86.06,USD,Travel,Reimbursed,CLIENT001,Client meeting
+100113,1007,Sales,2024-03-04,Uber,296.25,USD,Meals,Corporate Card,INTERNAL,Office supplies
+100114,1087,Sales,2024-06-28,WeWork,274.0,USD,Travel,Corporate Card,INTERNAL,Client meeting
+100115,1062,Finance,2024-05-27,Amazon,280.56,USD,Meals,Corporate Card,CLIENT002,Client meeting
+100116,1010,HR,2024-04-14,Hilton,343.3,USD,Software,Reimbursed,INTERNAL,Quarterly planning
+100117,1080,Sales,2024-12-25,Amazon,292.17,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100118,1007,Sales,2024-09-05,Amazon,290.56,USD,Supplies,Corporate Card,CLIENT002,Conference trip
+100119,1034,Finance,2024-09-24,Uber,321.5,USD,Meals,Corporate Card,CLIENT001,Conference trip
+100120,1034,Finance,2024-08-04,Amazon,300.24,USD,Supplies,Corporate Card,CLIENT002,Office supplies
+100121,1032,Engineering,2024-03-26,Delta Airlines,335.74,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100122,1004,Sales,2024-09-22,Uber,350.85,USD,Supplies,Reimbursed,CLIENT002,Quarterly planning
+100123,1040,Engineering,2024-05-05,Delta Airlines,403.17,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100124,1027,Finance,2024-11-23,Hilton,185.08,USD,Travel,Reimbursed,CLIENT001,Conference trip
+100125,1006,Finance,2024-10-25,Uber,298.06,USD,Software,Reimbursed,CLIENT001,Quarterly planning
+100126,1072,HR,2024-10-28,Hilton,212.97,USD,Supplies,Reimbursed,CLIENT002,Conference trip
+100127,1071,Sales,2024-01-22,Uber,166.64,USD,Supplies,Reimbursed,INTERNAL,Conference trip
+100128,1011,Engineering,2024-03-29,WeWork,181.05,USD,Software,Reimbursed,INTERNAL,Client meeting
+100129,1033,Finance,2024-11-15,Amazon,299.5,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100130,1032,Finance,2024-01-13,WeWork,291.83,USD,Supplies,Reimbursed,INTERNAL,Conference trip
+100131,1047,Engineering,2024-11-08,Hilton,290.04,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100132,1022,HR,2024-05-02,Amazon,227.43,USD,Lodging,Corporate Card,INTERNAL,Quarterly planning
+100133,1061,Finance,2024-06-04,Uber,250.34,USD,Software,Reimbursed,CLIENT002,Client meeting
+100134,1087,Sales,2024-04-13,Amazon,331.78,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100135,1036,Finance,2024-01-26,Delta Airlines,101.06,USD,Software,Corporate Card,CLIENT001,Client meeting
+100136,1098,Sales,2024-03-22,Amazon,252.46,USD,Meals,Corporate Card,CLIENT002,Conference trip
+100137,1043,Engineering,2024-12-20,Delta Airlines,259.0,USD,Meals,Corporate Card,CLIENT001,Office supplies
+100138,1085,Sales,2024-08-08,Amazon,325.33,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100139,1090,Engineering,2024-12-06,Delta Airlines,114.98,USD,Software,Reimbursed,INTERNAL,Client meeting
+100140,1034,Sales,2024-10-05,Hilton,399.51,USD,Software,Reimbursed,CLIENT001,Client meeting
+100141,1064,Engineering,2024-05-02,WeWork,271.36,USD,Software,Reimbursed,INTERNAL,Client meeting
+100142,1098,Sales,2024-03-23,Uber,276.66,USD,Lodging,Reimbursed,CLIENT001,Quarterly planning
+100143,1046,HR,2024-09-11,Amazon,209.86,USD,Meals,Reimbursed,CLIENT002,Quarterly planning
+100144,1077,Sales,2024-07-12,WeWork,303.8,USD,Software,Reimbursed,CLIENT001,Quarterly planning
+100145,1002,Sales,2024-06-02,Uber,254.8,USD,Software,Reimbursed,CLIENT002,Client meeting
+100146,1000,HR,2024-12-09,Uber,370.9,USD,Lodging,Reimbursed,INTERNAL,Conference trip
+100147,1004,Finance,2024-12-21,Delta Airlines,105.85,USD,Lodging,Reimbursed,CLIENT002,Office supplies
+100148,1089,Finance,2024-09-06,Hilton,267.55,USD,Software,Corporate Card,INTERNAL,Client meeting
+100149,1013,Sales,2024-06-27,Hilton,290.85,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100150,1026,HR,2024-02-25,WeWork,231.36,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100151,1008,Sales,2024-04-12,Hilton,209.53,USD,Software,Corporate Card,CLIENT001,Client meeting
+100152,1078,Engineering,2024-02-24,Amazon,213.7,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100153,1014,Engineering,2024-04-05,Hilton,267.46,USD,Lodging,Corporate Card,CLIENT002,Quarterly planning
+100154,1089,Sales,2024-10-16,WeWork,69.0,USD,Software,Reimbursed,CLIENT002,Conference trip
+100155,1041,Finance,2024-08-06,Hilton,346.5,USD,Software,Corporate Card,CLIENT002,Quarterly planning
+100156,1076,Finance,2024-07-28,Amazon,201.99,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100157,1050,Sales,2024-04-12,Delta Airlines,262.78,USD,Lodging,Reimbursed,INTERNAL,Client meeting
+100158,1062,Sales,2024-10-17,WeWork,286.71,USD,Software,Corporate Card,INTERNAL,Conference trip
+100159,1095,Engineering,2024-08-15,Delta Airlines,197.42,USD,Software,Reimbursed,INTERNAL,Quarterly planning
+100160,1051,Finance,2024-06-15,Delta Airlines,236.9,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100161,1095,Sales,2024-12-14,Delta Airlines,46.48,USD,Travel,Corporate Card,INTERNAL,Office supplies
+100162,1003,Engineering,2024-08-14,Uber,323.21,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100163,1093,Finance,2024-06-04,Uber,358.01,USD,Travel,Reimbursed,INTERNAL,Office supplies
+100164,1022,HR,2024-05-20,Delta Airlines,79.9,USD,Supplies,Corporate Card,CLIENT002,Office supplies
+100165,1014,Engineering,2024-03-26,WeWork,209.35,USD,Meals,Reimbursed,INTERNAL,Quarterly planning
+100166,1042,Finance,2024-02-23,Amazon,127.01,USD,Software,Reimbursed,CLIENT001,Client meeting
+100167,1028,Finance,2024-07-16,Amazon,232.23,USD,Supplies,Reimbursed,CLIENT002,Conference trip
+100168,1035,Engineering,2024-07-10,Hilton,314.86,USD,Software,Corporate Card,CLIENT001,Quarterly planning
+100169,1012,HR,2024-02-05,WeWork,348.73,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100170,1031,Engineering,2024-10-20,Uber,362.19,USD,Supplies,Reimbursed,CLIENT002,Conference trip
+100171,1070,Finance,2024-01-19,Delta Airlines,381.05,USD,Lodging,Reimbursed,CLIENT001,Client meeting
+100172,1058,Sales,2024-11-30,Hilton,227.76,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100173,1085,Sales,2024-02-12,Amazon,135.3,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100174,1027,Engineering,2024-02-29,Uber,238.54,USD,Lodging,Reimbursed,CLIENT001,Conference trip
+100175,1065,Finance,2024-08-31,Uber,313.33,USD,Meals,Corporate Card,CLIENT001,Quarterly planning
+100176,1041,Sales,2024-03-03,Delta Airlines,127.27,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100177,1044,Finance,2024-11-03,Amazon,416.01,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100178,1061,Engineering,2024-09-21,WeWork,339.79,USD,Supplies,Reimbursed,CLIENT001,Quarterly planning
+100179,1056,Sales,2024-06-12,Uber,229.34,USD,Software,Corporate Card,CLIENT002,Client meeting
+100180,1005,Finance,2024-08-19,Delta Airlines,178.91,USD,Lodging,Reimbursed,CLIENT002,Conference trip
+100181,1027,Sales,2024-01-25,WeWork,183.09,USD,Software,Corporate Card,INTERNAL,Office supplies
+100182,1027,Engineering,2024-05-29,Amazon,257.42,USD,Lodging,Reimbursed,INTERNAL,Conference trip
+100183,1043,Finance,2024-05-28,Uber,227.06,USD,Software,Corporate Card,INTERNAL,Conference trip
+100184,1083,Sales,2024-08-19,WeWork,345.05,USD,Travel,Corporate Card,INTERNAL,Office supplies
+100185,1029,Engineering,2024-06-30,WeWork,215.7,USD,Travel,Corporate Card,INTERNAL,Client meeting
+100186,1061,Sales,2024-07-24,WeWork,300.55,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100187,1074,Sales,2024-04-07,Uber,247.11,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100188,1091,HR,2024-08-02,Uber,276.97,USD,Travel,Corporate Card,CLIENT001,Quarterly planning
+100189,1088,HR,2024-11-30,Hilton,226.99,USD,Travel,Reimbursed,CLIENT001,Conference trip
+100190,1061,Engineering,2024-01-05,Amazon,320.77,USD,Lodging,Corporate Card,CLIENT002,Office supplies
+100191,1096,HR,2024-09-21,Delta Airlines,322.25,USD,Supplies,Reimbursed,CLIENT001,Quarterly planning
+100192,1000,Engineering,2024-10-06,WeWork,295.99,USD,Software,Reimbursed,CLIENT002,Client meeting
+100193,1026,HR,2024-02-14,Hilton,310.75,USD,Travel,Reimbursed,CLIENT002,Quarterly planning
+100194,1061,Sales,2024-09-21,Delta Airlines,155.56,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100195,1076,Engineering,2024-12-09,Hilton,282.32,USD,Lodging,Reimbursed,INTERNAL,Office supplies
+100196,1002,Engineering,2024-07-27,Uber,374.92,USD,Lodging,Corporate Card,CLIENT001,Quarterly planning
+100197,1069,Sales,2024-10-18,WeWork,299.14,USD,Supplies,Corporate Card,CLIENT001,Client meeting
+100198,1071,Engineering,2024-04-13,Delta Airlines,146.93,USD,Software,Corporate Card,CLIENT002,Quarterly planning
+100199,1026,Engineering,2024-10-25,Delta Airlines,245.02,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100200,1008,HR,2024-09-05,Delta Airlines,287.5,USD,Meals,Corporate Card,CLIENT002,Quarterly planning
+100201,1061,Engineering,2024-05-12,Delta Airlines,174.26,USD,Lodging,Corporate Card,INTERNAL,Office supplies
+100202,1036,Finance,2024-02-13,Delta Airlines,114.17,USD,Meals,Corporate Card,INTERNAL,Conference trip
+100203,1096,Sales,2024-04-23,Hilton,218.39,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100204,1050,HR,2024-06-17,WeWork,175.92,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100205,1043,HR,2024-03-02,Uber,248.57,USD,Supplies,Reimbursed,CLIENT002,Client meeting
+100206,1023,Finance,2024-06-25,Uber,90.86,USD,Software,Corporate Card,INTERNAL,Client meeting
+100207,1078,Sales,2024-01-02,Uber,306.47,USD,Meals,Reimbursed,CLIENT002,Office supplies
+100208,1058,Sales,2024-10-07,Uber,186.54,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100209,1031,HR,2024-12-06,Hilton,349.58,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100210,1095,Engineering,2024-10-06,Amazon,222.31,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100211,1087,HR,2024-04-12,WeWork,247.46,USD,Software,Reimbursed,CLIENT002,Client meeting
+100212,1051,Sales,2024-07-13,Delta Airlines,232.7,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100213,1061,Finance,2024-10-22,Amazon,181.18,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100214,1057,HR,2024-03-10,Uber,497.23,USD,Meals,Corporate Card,CLIENT002,Conference trip
+100215,1051,Sales,2024-07-16,Amazon,200.41,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100216,1011,HR,2024-12-20,WeWork,352.35,USD,Software,Corporate Card,CLIENT001,Office supplies
+100217,1038,Engineering,2024-02-11,Delta Airlines,140.64,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100218,1001,HR,2024-12-04,Delta Airlines,287.21,USD,Meals,Reimbursed,CLIENT001,Conference trip
+100219,1002,HR,2024-08-30,WeWork,297.89,USD,Travel,Reimbursed,CLIENT002,Client meeting
+100220,1055,Sales,2024-04-25,WeWork,247.58,USD,Software,Reimbursed,CLIENT002,Office supplies
+100221,1080,Sales,2024-11-22,Uber,192.9,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100222,1058,Sales,2024-09-05,Delta Airlines,223.67,USD,Software,Corporate Card,CLIENT002,Office supplies
+100223,1001,HR,2024-07-16,Amazon,209.67,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100224,1001,Engineering,2024-08-24,Hilton,490.2,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100225,1091,Finance,2024-03-18,Hilton,247.74,USD,Meals,Corporate Card,CLIENT002,Conference trip
+100226,1053,Finance,2024-02-29,WeWork,302.49,USD,Supplies,Corporate Card,CLIENT001,Office supplies
+100227,1086,Sales,2024-05-25,Uber,428.16,USD,Meals,Reimbursed,INTERNAL,Conference trip
+100228,1095,Sales,2024-10-23,Hilton,162.37,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100229,1096,HR,2024-03-03,Delta Airlines,253.77,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100230,1000,Finance,2024-07-28,WeWork,223.08,USD,Meals,Reimbursed,CLIENT002,Client meeting
+100231,1018,Sales,2024-10-29,Amazon,241.39,USD,Meals,Corporate Card,CLIENT001,Conference trip
+100232,1001,Engineering,2024-12-24,WeWork,232.1,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100233,1052,Engineering,2024-07-24,Amazon,176.81,USD,Software,Reimbursed,CLIENT001,Client meeting
+100234,1043,Sales,2024-12-22,WeWork,269.54,USD,Software,Reimbursed,CLIENT001,Quarterly planning
+100235,1089,Sales,2024-01-01,WeWork,143.74,USD,Lodging,Reimbursed,INTERNAL,Office supplies
+100236,1031,Finance,2024-08-20,WeWork,348.89,USD,Supplies,Corporate Card,INTERNAL,Conference trip
+100237,1069,Finance,2024-05-05,Amazon,312.33,USD,Travel,Reimbursed,CLIENT002,Conference trip
+100238,1031,HR,2024-07-08,Amazon,200.65,USD,Travel,Reimbursed,CLIENT001,Office supplies
+100239,1067,Finance,2024-01-08,WeWork,205.5,USD,Travel,Reimbursed,CLIENT001,Client meeting
+100240,1054,Engineering,2024-02-13,Hilton,277.55,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100241,1074,Engineering,2024-12-26,Uber,170.15,USD,Lodging,Reimbursed,CLIENT001,Client meeting
+100242,1055,Sales,2024-05-20,Uber,431.2,USD,Meals,Corporate Card,CLIENT001,Quarterly planning
+100243,1016,Finance,2024-12-07,Uber,285.79,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100244,1037,HR,2024-11-18,Amazon,289.33,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100245,1023,Engineering,2024-11-09,Amazon,318.14,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100246,1068,Engineering,2024-04-29,Hilton,192.05,USD,Travel,Reimbursed,CLIENT002,Office supplies
+100247,1097,HR,2024-04-02,Uber,358.9,USD,Travel,Corporate Card,CLIENT001,Conference trip
+100248,1069,HR,2024-01-23,Uber,261.45,USD,Travel,Corporate Card,CLIENT002,Office supplies
+100249,1085,Engineering,2024-04-03,WeWork,345.01,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100250,1010,Engineering,2024-12-06,Amazon,230.2,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100251,1015,HR,2024-08-08,Uber,381.73,USD,Lodging,Reimbursed,INTERNAL,Conference trip
+100252,1096,Engineering,2024-01-31,Hilton,290.13,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100253,1072,Sales,2024-02-03,Hilton,468.25,USD,Supplies,Corporate Card,INTERNAL,Conference trip
+100254,1058,Sales,2024-10-11,Uber,213.05,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100255,1069,HR,2024-07-07,Amazon,270.45,USD,Meals,Reimbursed,CLIENT002,Office supplies
+100256,1079,Finance,2024-11-12,Hilton,146.84,USD,Lodging,Reimbursed,CLIENT001,Client meeting
+100257,1092,HR,2024-01-27,WeWork,197.07,USD,Software,Corporate Card,INTERNAL,Conference trip
+100258,1002,HR,2024-10-22,Hilton,311.87,USD,Software,Corporate Card,CLIENT002,Conference trip
+100259,1019,Finance,2024-07-25,Delta Airlines,362.93,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100260,1058,Finance,2024-10-24,Delta Airlines,546.5,USD,Lodging,Reimbursed,CLIENT001,Quarterly planning
+100261,1035,Finance,2024-02-18,Amazon,240.34,USD,Meals,Reimbursed,CLIENT002,Office supplies
+100262,1018,Sales,2024-02-19,Uber,156.68,USD,Lodging,Reimbursed,INTERNAL,Office supplies
+100263,1089,Engineering,2024-09-13,Amazon,325.33,USD,Travel,Corporate Card,CLIENT001,Conference trip
+100264,1066,Sales,2024-07-03,Amazon,137.22,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100265,1018,Engineering,2024-08-01,Amazon,306.43,USD,Travel,Reimbursed,INTERNAL,Quarterly planning
+100266,1019,Sales,2024-03-05,Amazon,199.77,USD,Travel,Corporate Card,INTERNAL,Client meeting
+100267,1095,Engineering,2024-04-12,WeWork,271.16,USD,Meals,Reimbursed,CLIENT001,Client meeting
+100268,1070,Sales,2024-07-23,WeWork,359.1,USD,Supplies,Corporate Card,INTERNAL,Office supplies
+100269,1051,Finance,2024-12-04,Hilton,238.93,USD,Lodging,Corporate Card,CLIENT001,Quarterly planning
+100270,1032,HR,2024-08-23,Delta Airlines,343.29,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100271,1039,Sales,2024-06-13,Amazon,337.32,USD,Lodging,Corporate Card,CLIENT001,Office supplies
+100272,1038,Engineering,2024-03-23,Hilton,63.57,USD,Supplies,Reimbursed,INTERNAL,Quarterly planning
+100273,1081,Finance,2024-12-26,Delta Airlines,159.84,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100274,1000,Sales,2024-07-28,Uber,93.82,USD,Software,Reimbursed,INTERNAL,Quarterly planning
+100275,1010,Sales,2024-10-20,WeWork,450.17,USD,Supplies,Reimbursed,INTERNAL,Client meeting
+100276,1091,Finance,2024-10-10,Delta Airlines,239.46,USD,Meals,Reimbursed,CLIENT001,Quarterly planning
+100277,1056,Sales,2024-09-24,Uber,428.08,USD,Travel,Corporate Card,CLIENT001,Office supplies
+100278,1088,HR,2024-03-19,Delta Airlines,86.7,USD,Software,Reimbursed,INTERNAL,Client meeting
+100279,1049,Sales,2024-10-03,WeWork,192.72,USD,Meals,Reimbursed,CLIENT002,Office supplies
+100280,1022,HR,2024-05-01,WeWork,330.05,USD,Lodging,Reimbursed,CLIENT002,Office supplies
+100281,1030,HR,2024-06-03,Hilton,267.93,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100282,1093,Finance,2024-09-17,Amazon,303.29,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100283,1041,Sales,2024-09-09,Delta Airlines,124.62,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100284,1098,Finance,2024-05-25,Delta Airlines,387.68,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100285,1006,Sales,2024-06-19,Uber,327.7,USD,Software,Reimbursed,INTERNAL,Conference trip
+100286,1015,Sales,2024-12-15,WeWork,290.16,USD,Software,Reimbursed,CLIENT001,Office supplies
+100287,1089,Engineering,2024-07-20,Delta Airlines,181.44,USD,Software,Corporate Card,CLIENT001,Office supplies
+100288,1059,Sales,2024-06-24,WeWork,282.38,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100289,1001,Finance,2024-02-16,Delta Airlines,220.85,USD,Meals,Corporate Card,CLIENT001,Office supplies
+100290,1000,HR,2024-04-06,Hilton,84.95,USD,Meals,Corporate Card,CLIENT002,Office supplies
+100291,1047,Sales,2024-03-28,Amazon,244.96,USD,Travel,Reimbursed,INTERNAL,Client meeting
+100292,1011,Engineering,2024-01-25,Delta Airlines,234.33,USD,Supplies,Corporate Card,INTERNAL,Client meeting
+100293,1068,Finance,2024-05-11,WeWork,356.24,USD,Software,Corporate Card,INTERNAL,Office supplies
+100294,1036,Sales,2024-01-09,Hilton,26.56,USD,Software,Reimbursed,CLIENT001,Conference trip
+100295,1031,Finance,2024-08-16,Delta Airlines,273.52,USD,Lodging,Reimbursed,CLIENT002,Quarterly planning
+100296,1008,Engineering,2024-08-03,Uber,134.44,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100297,1098,Engineering,2024-03-30,Amazon,281.92,USD,Software,Corporate Card,CLIENT002,Quarterly planning
+100298,1018,Finance,2024-08-16,Delta Airlines,287.43,USD,Software,Reimbursed,CLIENT001,Conference trip
+100299,1047,Sales,2024-03-26,Hilton,241.32,USD,Supplies,Corporate Card,INTERNAL,Client meeting
+100300,1079,HR,2024-01-03,Uber,330.73,USD,Meals,Corporate Card,CLIENT002,Office supplies
+100301,1002,Engineering,2024-01-28,Hilton,125.42,USD,Lodging,Corporate Card,CLIENT001,Office supplies
+100302,1019,Sales,2024-10-01,Hilton,360.77,USD,Meals,Corporate Card,CLIENT002,Client meeting
+100303,1023,Sales,2024-09-02,Uber,179.19,USD,Supplies,Corporate Card,INTERNAL,Quarterly planning
+100304,1053,HR,2024-01-23,Hilton,94.41,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100305,1032,Engineering,2024-03-29,Uber,222.76,USD,Meals,Corporate Card,CLIENT001,Quarterly planning
+100306,1023,Engineering,2024-01-27,Delta Airlines,40.48,USD,Software,Reimbursed,CLIENT001,Client meeting
+100307,1074,Sales,2024-12-17,Uber,275.42,USD,Software,Reimbursed,CLIENT001,Quarterly planning
+100308,1071,Sales,2024-01-13,Uber,224.07,USD,Travel,Reimbursed,CLIENT002,Client meeting
+100309,1035,HR,2024-11-29,Amazon,373.37,USD,Meals,Reimbursed,CLIENT002,Conference trip
+100310,1037,HR,2024-05-08,Uber,314.89,USD,Meals,Reimbursed,CLIENT002,Conference trip
+100311,1083,Engineering,2024-01-28,Uber,110.8,USD,Software,Corporate Card,CLIENT001,Client meeting
+100312,1098,Finance,2024-07-18,Delta Airlines,166.16,USD,Supplies,Corporate Card,INTERNAL,Office supplies
+100313,1088,Engineering,2024-04-02,Amazon,302.07,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100314,1098,Sales,2024-04-18,WeWork,334.71,USD,Software,Corporate Card,CLIENT002,Quarterly planning
+100315,1024,Engineering,2024-09-16,Delta Airlines,372.25,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100316,1092,Finance,2024-07-07,Delta Airlines,371.45,USD,Lodging,Corporate Card,INTERNAL,Quarterly planning
+100317,1017,HR,2024-03-24,WeWork,241.05,USD,Travel,Corporate Card,INTERNAL,Quarterly planning
+100318,1081,Finance,2024-07-28,Uber,286.27,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100319,1065,Finance,2024-02-21,Hilton,379.87,USD,Software,Corporate Card,CLIENT002,Quarterly planning
+100320,1053,Finance,2024-10-07,Amazon,219.67,USD,Meals,Corporate Card,INTERNAL,Office supplies
+100321,1034,HR,2024-12-29,Hilton,287.97,USD,Travel,Reimbursed,CLIENT001,Conference trip
+100322,1079,Finance,2024-12-08,WeWork,217.31,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100323,1060,Finance,2024-08-09,Delta Airlines,194.91,USD,Meals,Corporate Card,INTERNAL,Quarterly planning
+100324,1040,Finance,2024-08-11,Delta Airlines,254.84,USD,Lodging,Corporate Card,INTERNAL,Client meeting
+100325,1099,Sales,2024-07-02,Amazon,181.25,USD,Lodging,Corporate Card,INTERNAL,Quarterly planning
+100326,1032,Finance,2024-04-04,Delta Airlines,236.91,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100327,1067,HR,2024-10-31,Delta Airlines,146.5,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100328,1032,Finance,2024-07-02,Amazon,231.0,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100329,1013,Finance,2024-11-09,Amazon,294.84,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100330,1020,HR,2024-06-07,WeWork,191.12,USD,Meals,Reimbursed,CLIENT001,Quarterly planning
+100331,1047,Finance,2024-03-14,Delta Airlines,250.93,USD,Meals,Reimbursed,INTERNAL,Quarterly planning
+100332,1019,HR,2024-02-06,Delta Airlines,263.93,USD,Lodging,Reimbursed,CLIENT001,Quarterly planning
+100333,1007,Finance,2024-02-07,WeWork,295.25,USD,Travel,Corporate Card,CLIENT002,Quarterly planning
+100334,1006,HR,2024-09-12,Uber,236.64,USD,Software,Reimbursed,INTERNAL,Quarterly planning
+100335,1066,Finance,2024-06-16,Uber,358.59,USD,Travel,Reimbursed,CLIENT002,Quarterly planning
+100336,1016,Finance,2024-05-17,Uber,39.91,USD,Supplies,Corporate Card,INTERNAL,Client meeting
+100337,1032,Sales,2024-06-13,WeWork,543.78,USD,Supplies,Corporate Card,INTERNAL,Office supplies
+100338,1047,Sales,2024-06-08,Delta Airlines,162.89,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100339,1075,Finance,2024-06-30,WeWork,290.34,USD,Lodging,Corporate Card,INTERNAL,Office supplies
+100340,1058,Finance,2024-12-01,WeWork,156.15,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100341,1085,Engineering,2024-10-10,Uber,314.43,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100342,1021,HR,2024-01-22,Hilton,277.66,USD,Travel,Reimbursed,INTERNAL,Client meeting
+100343,1029,Engineering,2024-09-18,Delta Airlines,184.93,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100344,1037,Sales,2024-09-10,Uber,357.31,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100345,1050,Sales,2024-09-07,Hilton,233.6,USD,Software,Reimbursed,CLIENT001,Client meeting
+100346,1053,Sales,2024-02-08,Hilton,304.72,USD,Travel,Reimbursed,CLIENT001,Office supplies
+100347,1007,Sales,2024-01-24,Amazon,158.28,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100348,1026,Finance,2024-06-05,Delta Airlines,246.91,USD,Meals,Reimbursed,CLIENT001,Client meeting
+100349,1026,Sales,2024-10-09,Hilton,450.34,USD,Meals,Reimbursed,CLIENT001,Client meeting
+100350,1097,Finance,2024-05-11,Uber,346.3,USD,Meals,Corporate Card,INTERNAL,Conference trip
+100351,1020,Finance,2024-11-06,Amazon,280.76,USD,Software,Reimbursed,INTERNAL,Office supplies
+100352,1029,Sales,2024-11-30,Delta Airlines,205.11,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100353,1096,Sales,2024-02-12,WeWork,256.75,USD,Supplies,Corporate Card,INTERNAL,Quarterly planning
+100354,1027,HR,2024-04-06,Uber,269.76,USD,Software,Corporate Card,INTERNAL,Office supplies
+100355,1063,Engineering,2024-03-15,Hilton,294.92,USD,Supplies,Reimbursed,CLIENT001,Office supplies
+100356,1096,Sales,2024-03-14,Hilton,142.33,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100357,1068,HR,2024-07-27,Uber,316.84,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100358,1060,HR,2024-06-23,Hilton,141.04,USD,Meals,Reimbursed,CLIENT002,Quarterly planning
+100359,1047,Engineering,2024-02-24,Amazon,413.11,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100360,1018,Finance,2024-06-12,Delta Airlines,172.84,USD,Software,Corporate Card,INTERNAL,Conference trip
+100361,1003,Sales,2024-03-12,Amazon,279.66,USD,Software,Reimbursed,INTERNAL,Conference trip
+100362,1034,Engineering,2024-04-18,Hilton,350.51,USD,Software,Reimbursed,CLIENT002,Office supplies
+100363,1063,Sales,2024-06-28,WeWork,224.76,USD,Lodging,Corporate Card,CLIENT002,Conference trip
+100364,1048,HR,2024-04-07,Delta Airlines,284.06,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100365,1016,HR,2024-12-05,Delta Airlines,393.52,USD,Supplies,Reimbursed,CLIENT002,Conference trip
+100366,1043,Finance,2024-12-24,Uber,306.44,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100367,1091,HR,2024-01-30,Uber,285.56,USD,Software,Corporate Card,INTERNAL,Office supplies
+100368,1029,HR,2024-06-21,WeWork,81.52,USD,Supplies,Corporate Card,CLIENT002,Quarterly planning
+100369,1092,Engineering,2024-11-09,Delta Airlines,156.63,USD,Travel,Reimbursed,CLIENT002,Quarterly planning
+100370,1045,Sales,2024-11-30,WeWork,354.69,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100371,1005,Sales,2024-11-28,Uber,307.0,USD,Software,Corporate Card,CLIENT002,Conference trip
+100372,1098,Engineering,2024-08-01,Uber,322.15,USD,Meals,Reimbursed,CLIENT001,Office supplies
+100373,1036,Finance,2024-02-08,Delta Airlines,313.54,USD,Software,Corporate Card,CLIENT002,Client meeting
+100374,1023,Sales,2024-01-20,Amazon,378.98,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100375,1092,HR,2024-09-10,Hilton,223.86,USD,Supplies,Reimbursed,INTERNAL,Quarterly planning
+100376,1045,Sales,2024-07-28,Uber,262.05,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100377,1052,HR,2024-11-20,Uber,147.13,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100378,1094,Finance,2024-01-06,Amazon,122.2,USD,Lodging,Reimbursed,CLIENT002,Office supplies
+100379,1098,Engineering,2024-02-06,Amazon,85.63,USD,Meals,Corporate Card,INTERNAL,Quarterly planning
+100380,1059,Sales,2024-12-25,WeWork,161.48,USD,Supplies,Corporate Card,INTERNAL,Quarterly planning
+100381,1096,Engineering,2024-10-19,WeWork,405.26,USD,Supplies,Reimbursed,INTERNAL,Quarterly planning
+100382,1062,Sales,2024-11-25,Hilton,94.73,USD,Meals,Reimbursed,CLIENT002,Quarterly planning
+100383,1084,HR,2024-04-01,Hilton,219.65,USD,Travel,Corporate Card,CLIENT002,Quarterly planning
+100384,1031,Engineering,2024-03-05,Delta Airlines,120.69,USD,Meals,Reimbursed,CLIENT001,Conference trip
+100385,1086,Sales,2024-06-06,WeWork,189.9,USD,Software,Corporate Card,INTERNAL,Conference trip
+100386,1032,HR,2024-07-07,Uber,266.97,USD,Supplies,Reimbursed,CLIENT002,Office supplies
+100387,1066,Engineering,2024-07-05,WeWork,179.99,USD,Lodging,Corporate Card,INTERNAL,Client meeting
+100388,1017,Engineering,2024-03-24,Uber,358.97,USD,Software,Reimbursed,INTERNAL,Office supplies
+100389,1024,Sales,2024-12-01,Amazon,403.4,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100390,1094,Sales,2024-06-04,WeWork,25.09,USD,Meals,Corporate Card,CLIENT001,Quarterly planning
+100391,1053,Sales,2024-12-16,Amazon,181.7,USD,Software,Reimbursed,CLIENT001,Client meeting
+100392,1057,HR,2024-01-23,Hilton,255.91,USD,Supplies,Corporate Card,CLIENT001,Office supplies
+100393,1066,Sales,2024-03-04,Hilton,362.61,USD,Travel,Corporate Card,INTERNAL,Office supplies
+100394,1045,Engineering,2024-05-27,Delta Airlines,204.58,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100395,1023,Engineering,2024-01-01,WeWork,248.01,USD,Lodging,Corporate Card,CLIENT001,Conference trip
+100396,1031,Sales,2024-05-31,Amazon,134.33,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100397,1046,Sales,2024-04-12,Uber,96.72,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100398,1085,Finance,2024-12-25,Hilton,394.54,USD,Meals,Reimbursed,INTERNAL,Office supplies
+100399,1022,Engineering,2024-10-31,Hilton,67.59,USD,Supplies,Corporate Card,CLIENT001,Conference trip
+100400,1065,HR,2024-10-31,Uber,482.86,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100401,1026,Finance,2024-06-25,Amazon,322.52,USD,Meals,Corporate Card,CLIENT002,Quarterly planning
+100402,1001,Sales,2024-04-20,Amazon,318.0,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100403,1089,Sales,2024-06-13,WeWork,307.55,USD,Supplies,Reimbursed,INTERNAL,Quarterly planning
+100404,1016,Engineering,2024-09-27,WeWork,224.73,USD,Software,Reimbursed,CLIENT001,Conference trip
+100405,1032,Sales,2024-10-10,Delta Airlines,289.21,USD,Travel,Reimbursed,CLIENT002,Conference trip
+100406,1008,HR,2024-10-31,Hilton,231.11,USD,Travel,Corporate Card,CLIENT002,Office supplies
+100407,1042,Engineering,2024-08-03,WeWork,305.31,USD,Supplies,Corporate Card,CLIENT002,Quarterly planning
+100408,1047,Sales,2024-09-14,Amazon,246.63,USD,Supplies,Reimbursed,CLIENT002,Client meeting
+100409,1038,Engineering,2024-10-06,Uber,154.97,USD,Meals,Reimbursed,INTERNAL,Office supplies
+100410,1092,Sales,2024-07-08,Amazon,162.94,USD,Supplies,Corporate Card,CLIENT002,Office supplies
+100411,1041,Sales,2024-03-01,Hilton,151.57,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100412,1025,Sales,2024-03-14,Amazon,347.09,USD,Travel,Corporate Card,INTERNAL,Office supplies
+100413,1098,HR,2024-04-25,Delta Airlines,188.26,USD,Lodging,Corporate Card,INTERNAL,Conference trip
+100414,1049,HR,2024-03-25,Hilton,58.79,USD,Software,Corporate Card,CLIENT002,Conference trip
+100415,1024,Engineering,2024-01-23,Uber,289.68,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100416,1023,Sales,2024-08-12,Delta Airlines,401.45,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100417,1012,Sales,2024-10-12,Hilton,327.31,USD,Software,Reimbursed,CLIENT002,Client meeting
+100418,1059,HR,2024-07-29,Uber,189.67,USD,Lodging,Corporate Card,CLIENT001,Quarterly planning
+100419,1006,Sales,2024-01-24,Delta Airlines,91.32,USD,Lodging,Reimbursed,CLIENT001,Conference trip
+100420,1056,HR,2024-10-17,Delta Airlines,236.57,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100421,1035,Sales,2024-05-01,Hilton,234.08,USD,Software,Reimbursed,INTERNAL,Client meeting
+100422,1044,Engineering,2024-01-23,WeWork,153.08,USD,Meals,Corporate Card,CLIENT002,Quarterly planning
+100423,1019,Sales,2024-01-20,Delta Airlines,305.1,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100424,1064,Sales,2024-08-14,Delta Airlines,434.66,USD,Software,Reimbursed,CLIENT001,Client meeting
+100425,1007,Finance,2024-07-04,Uber,272.23,USD,Travel,Reimbursed,INTERNAL,Conference trip
+100426,1015,HR,2024-07-14,Amazon,266.05,USD,Meals,Reimbursed,CLIENT002,Conference trip
+100427,1013,Sales,2024-12-23,Hilton,156.28,USD,Software,Corporate Card,CLIENT002,Conference trip
+100428,1075,Sales,2024-11-27,Hilton,389.74,USD,Meals,Corporate Card,CLIENT002,Quarterly planning
+100429,1086,Finance,2024-07-25,WeWork,242.49,USD,Software,Corporate Card,CLIENT002,Office supplies
+100430,1014,Finance,2024-03-02,WeWork,192.1,USD,Meals,Corporate Card,CLIENT002,Office supplies
+100431,1091,HR,2024-01-23,Hilton,256.37,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100432,1097,Finance,2024-07-16,WeWork,297.2,USD,Meals,Reimbursed,CLIENT001,Conference trip
+100433,1065,Engineering,2024-02-01,Uber,263.92,USD,Lodging,Corporate Card,INTERNAL,Quarterly planning
+100434,1031,Finance,2024-11-26,Hilton,370.62,USD,Meals,Corporate Card,INTERNAL,Conference trip
+100435,1086,Engineering,2024-03-13,WeWork,288.4,USD,Software,Reimbursed,CLIENT002,Conference trip
+100436,1062,HR,2024-01-27,Hilton,221.61,USD,Software,Corporate Card,INTERNAL,Quarterly planning
+100437,1085,HR,2024-08-19,Amazon,290.12,USD,Software,Corporate Card,INTERNAL,Office supplies
+100438,1050,HR,2024-01-27,Delta Airlines,299.96,USD,Supplies,Corporate Card,INTERNAL,Conference trip
+100439,1024,HR,2024-09-19,Hilton,120.36,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100440,1057,HR,2024-11-30,Delta Airlines,364.94,USD,Software,Corporate Card,CLIENT002,Office supplies
+100441,1062,Engineering,2024-04-01,WeWork,219.91,USD,Lodging,Corporate Card,INTERNAL,Quarterly planning
+100442,1061,Engineering,2024-06-05,Delta Airlines,222.47,USD,Software,Reimbursed,INTERNAL,Client meeting
+100443,1021,HR,2024-02-16,Hilton,325.14,USD,Supplies,Corporate Card,CLIENT002,Office supplies
+100444,1057,Finance,2024-12-31,Amazon,324.72,USD,Lodging,Corporate Card,CLIENT001,Client meeting
+100445,1057,Sales,2024-12-11,WeWork,179.92,USD,Supplies,Reimbursed,INTERNAL,Client meeting
+100446,1085,HR,2024-08-09,Hilton,330.29,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100447,1048,Finance,2024-04-05,WeWork,193.96,USD,Meals,Reimbursed,INTERNAL,Conference trip
+100448,1051,Sales,2024-08-12,Uber,431.96,USD,Travel,Corporate Card,CLIENT001,Client meeting
+100449,1041,HR,2024-08-18,Delta Airlines,167.18,USD,Travel,Reimbursed,CLIENT001,Client meeting
+100450,1069,HR,2024-01-16,Uber,273.95,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100451,1014,Engineering,2024-08-28,Hilton,171.8,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100452,1053,Sales,2024-02-01,Amazon,472.27,USD,Supplies,Corporate Card,CLIENT001,Client meeting
+100453,1059,Sales,2024-06-11,WeWork,126.22,USD,Supplies,Reimbursed,CLIENT001,Quarterly planning
+100454,1096,Finance,2024-09-12,Delta Airlines,302.44,USD,Supplies,Reimbursed,CLIENT001,Conference trip
+100455,1007,Engineering,2024-08-14,WeWork,176.51,USD,Travel,Reimbursed,INTERNAL,Office supplies
+100456,1052,Engineering,2024-08-07,Hilton,214.59,USD,Supplies,Reimbursed,CLIENT001,Office supplies
+100457,1059,Engineering,2024-07-22,WeWork,295.35,USD,Travel,Reimbursed,INTERNAL,Quarterly planning
+100458,1004,Engineering,2024-05-02,Delta Airlines,372.46,USD,Supplies,Corporate Card,CLIENT001,Office supplies
+100459,1067,Sales,2024-12-29,Hilton,412.34,USD,Software,Corporate Card,CLIENT001,Client meeting
+100460,1005,Sales,2024-04-11,WeWork,96.31,USD,Supplies,Corporate Card,CLIENT002,Conference trip
+100461,1095,HR,2024-03-20,Amazon,276.78,USD,Lodging,Corporate Card,INTERNAL,Client meeting
+100462,1093,HR,2024-09-17,Hilton,395.95,USD,Supplies,Reimbursed,CLIENT001,Client meeting
+100463,1046,Engineering,2024-10-05,Hilton,81.47,USD,Meals,Reimbursed,INTERNAL,Office supplies
+100464,1098,Engineering,2024-05-02,Amazon,281.44,USD,Supplies,Corporate Card,INTERNAL,Client meeting
+100465,1054,Engineering,2024-04-02,Uber,249.79,USD,Lodging,Reimbursed,CLIENT002,Office supplies
+100466,1039,HR,2024-04-13,Delta Airlines,291.45,USD,Lodging,Reimbursed,CLIENT002,Conference trip
+100467,1051,Finance,2024-06-02,Uber,172.77,USD,Travel,Corporate Card,CLIENT002,Conference trip
+100468,1015,Finance,2024-02-20,WeWork,106.44,USD,Software,Corporate Card,CLIENT002,Client meeting
+100469,1012,HR,2024-09-17,Amazon,58.69,USD,Supplies,Reimbursed,CLIENT002,Quarterly planning
+100470,1029,HR,2024-09-07,Uber,347.64,USD,Travel,Reimbursed,CLIENT002,Office supplies
+100471,1018,HR,2024-04-26,Hilton,360.4,USD,Software,Corporate Card,CLIENT002,Office supplies
+100472,1016,HR,2024-06-26,WeWork,280.27,USD,Supplies,Corporate Card,CLIENT002,Client meeting
+100473,1062,HR,2024-05-02,WeWork,196.59,USD,Meals,Corporate Card,CLIENT001,Office supplies
+100474,1018,HR,2024-12-26,Uber,87.7,USD,Supplies,Reimbursed,INTERNAL,Office supplies
+100475,1091,Engineering,2024-10-18,Uber,306.33,USD,Lodging,Corporate Card,CLIENT002,Quarterly planning
+100476,1057,Engineering,2024-12-29,Amazon,139.92,USD,Lodging,Corporate Card,CLIENT002,Quarterly planning
+100477,1054,Engineering,2024-01-29,Delta Airlines,178.87,USD,Meals,Reimbursed,INTERNAL,Client meeting
+100478,1089,Engineering,2024-01-04,Uber,191.34,USD,Travel,Reimbursed,CLIENT001,Quarterly planning
+100479,1089,HR,2024-06-26,Uber,230.25,USD,Software,Reimbursed,INTERNAL,Client meeting
+100480,1061,Finance,2024-08-29,Hilton,174.1,USD,Supplies,Reimbursed,INTERNAL,Conference trip
+100481,1022,Sales,2024-08-06,WeWork,253.35,USD,Lodging,Reimbursed,CLIENT002,Client meeting
+100482,1008,HR,2024-02-08,Delta Airlines,187.82,USD,Travel,Corporate Card,INTERNAL,Conference trip
+100483,1011,Sales,2024-01-29,Hilton,320.14,USD,Meals,Corporate Card,INTERNAL,Client meeting
+100484,1000,Finance,2024-07-27,Amazon,353.11,USD,Lodging,Reimbursed,CLIENT002,Office supplies
+100485,1057,Engineering,2024-03-23,Amazon,260.85,USD,Meals,Reimbursed,CLIENT002,Quarterly planning
+100486,1000,Finance,2024-07-15,Uber,296.26,USD,Supplies,Reimbursed,CLIENT002,Conference trip
+100487,1033,HR,2024-04-12,Uber,461.79,USD,Software,Reimbursed,CLIENT002,Client meeting
+100488,1095,Engineering,2024-02-21,Amazon,132.74,USD,Lodging,Reimbursed,INTERNAL,Quarterly planning
+100489,1047,HR,2024-12-28,Uber,126.65,USD,Lodging,Corporate Card,INTERNAL,Client meeting
+100490,1088,Engineering,2024-05-15,Delta Airlines,319.5,USD,Supplies,Corporate Card,CLIENT001,Quarterly planning
+100491,1000,Sales,2024-12-08,Uber,444.65,USD,Travel,Corporate Card,CLIENT001,Quarterly planning
+100492,1015,Sales,2024-01-27,WeWork,223.95,USD,Software,Corporate Card,INTERNAL,Client meeting
+100493,1060,Sales,2024-12-07,Uber,422.68,USD,Lodging,Reimbursed,CLIENT001,Conference trip
+100494,1063,Finance,2024-04-04,Hilton,259.64,USD,Software,Corporate Card,INTERNAL,Conference trip
+100495,1062,HR,2024-05-23,Delta Airlines,181.91,USD,Lodging,Reimbursed,CLIENT001,Office supplies
+100496,1068,Finance,2024-04-20,Hilton,150.93,USD,Software,Reimbursed,CLIENT002,Quarterly planning
+100497,1021,Sales,2024-03-02,Hilton,312.94,USD,Meals,Reimbursed,CLIENT001,Office supplies
+100498,1092,HR,2024-06-19,WeWork,158.5,USD,Lodging,Corporate Card,CLIENT002,Office supplies
+100499,1066,Sales,2024-11-19,Delta Airlines,258.13,USD,Software,Reimbursed,CLIENT002,Client meeting
+99900,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99901,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99902,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99903,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99904,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99905,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99906,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99907,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99908,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99909,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99910,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99911,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99912,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99913,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99914,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99915,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99916,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99917,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99918,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99919,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99920,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99921,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99922,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99923,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99924,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99925,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99926,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99927,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99928,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99929,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99930,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99931,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99932,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99933,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99934,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99935,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99936,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99937,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99938,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99939,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99940,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99941,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99942,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99943,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99944,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99945,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99946,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
+99947,9997,Finance,2024-06-01,Hilton,0.01,USD,Lodging,Corporate Card,CLIENT002,Invalid minimal hotel stay
+99948,9999,Sales,2024-12-30,Uber,9000.0,USD,Travel,Corporate Card,CLIENT001,Luxury ride to airport
+99949,9998,HR,2024-02-15,DarkWeb VPN,49.99,USD,Software,Reimbursed,INTERNAL,Unusual vendor
