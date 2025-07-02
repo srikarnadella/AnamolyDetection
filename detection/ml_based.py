@@ -17,14 +17,12 @@ def detect_robust_isolation_forest_outliers(
     exclude_columns = exclude_columns or []
     df_model = df.drop(columns=exclude_columns, errors="ignore").copy()
 
-    # Detect and parse datetime columns
     for col in df_model.columns:
         if "time" in col.lower() or "date" in col.lower():
             parsed = pd.to_datetime(df_model[col], errors="coerce")
             if parsed.notna().sum() > 0:
-                df_model[col] = parsed.astype("int64") // 10**9  # convert to seconds
+                df_model[col] = parsed.astype("int64") // 10**9
 
-    # Select numeric columns
     numeric_cols = df_model.select_dtypes(include=[np.number]).columns.tolist()
     categorical_cols = df_model.select_dtypes(include=["object", "category"]).columns.tolist()
 
